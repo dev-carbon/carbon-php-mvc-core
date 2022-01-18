@@ -1,0 +1,10 @@
+{
+    "name": "humanfou/php-mvc-core",
+    "authors": [
+        {
+            "name": "dev-carbon",
+            "email": "hugues.tchouala42@gmail.com"
+        }
+    ],
+    "require": {}
+}
