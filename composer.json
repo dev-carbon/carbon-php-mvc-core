@@ -9,7 +9,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "carbon42\\phpmvc": "./"
+            "carbon42\\phpmvc\\": "./"
         }
     }
 }
