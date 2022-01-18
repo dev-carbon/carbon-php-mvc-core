@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace carbon42\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
-use app\core\Request;
+use carbon42\phpmvc\db\Database;
+use carbon42\phpmvc\db\DbModel;
+use carbon42\phpmvc\Request;
 
 class Application
 {

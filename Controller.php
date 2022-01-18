@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace carbon42\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use carbon42\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
@@ -10,7 +10,7 @@ class Controller
     public string   $layout = 'default';
     public string   $action = '';
     /**
-     * @var \app\core\middlewares\BaseMiddleware[]
+     * @var \carbon42\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array    $middlewares = [];
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core\db;
+namespace carbon42\phpmvc\db;
 
-use app\core\Application;
-use app\core\Model;
+use carbon42\phpmvc\Application;
+use carbon42\phpmvc\Model;
 
 abstract class DbModel extends Model
 {

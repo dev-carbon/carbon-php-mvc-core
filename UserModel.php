@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace carbon42\phpmvc;
 
-use app\core\db\DbModel;
+use carbon42\phpmvc\db\DbModel;
 
 abstract class UserModel extends DbModel
 {

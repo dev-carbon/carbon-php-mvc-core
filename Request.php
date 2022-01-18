@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core;
+namespace carbon42\phpmvc;
 
 class Request
 {

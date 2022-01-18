@@ -1,10 +1,15 @@
 {
-    "name": "carbon-42/php-mvc-core",
+    "name": "carbon42/phpmvc",
     "authors": [
         {
             "name": "dev-carbon",
             "email": "hugues.tchouala42@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "carbon42\\phpmvc": "./"
+        }
+    }
 }

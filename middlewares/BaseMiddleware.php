@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\middlewares;
+namespace carbon42\phpmvc\middlewares;
 
 abstract class BaseMiddleware
 {

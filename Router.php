@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace carbon42\phpmvc;
 
-use app\core\exceptions\NotFoundException;
+use carbon42\phpmvc\exceptions\NotFoundException;
 
 class Router
 {
@@ -44,7 +44,7 @@ class Router
 
         if (is_array($callback))
         {
-            /** @var \app\core\controller $controller */
+            /** @var \carbon42\phpmvc\controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

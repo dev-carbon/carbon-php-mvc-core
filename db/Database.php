@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace carbon42\phpmvc\db;
 
-use app\core\Application;
+use carbon42\phpmvc\Application;
 use PDO;
 
 class Database

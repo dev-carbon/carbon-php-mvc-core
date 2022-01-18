@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exceptions;
+namespace carbon42\phpmvc\exceptions;
 
 class NotFoundException extends \Exception
 {

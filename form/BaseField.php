@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace carbon42\phpmvc\form;
 
-use app\core\Model;
+use carbon42\phpmvc\Model;
 
 abstract class BaseField
 {
